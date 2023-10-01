@@ -21,5 +21,5 @@ For working with database, I used Microsoft SQL Server 2019 and local DB.
 Also in the client I used NuGet for download Microsoft.Xaml.Behaviors.Wpf which include behaviors on an event mouse double click on listbox.
 ### Run
 The program has two parts: a console service application and a client.
-Since the host has a link to the service, and the service to the dll-library, they form a single project, which is assembled in the ConsoleHost project.
+Since the host has a reference to the service, and the service to the dll-library, they form a single project, which is assembled in the ConsoleHost project.
 The client should be building separately.
